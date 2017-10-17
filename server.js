@@ -26,7 +26,7 @@ app.post('/', (req, res) => {
     }
 
     else if(eventData.event.type == 'team_join') {
-        const openImUrl = `${baseUrl}/im.open?token=${token}
+        const openImUrl = `${baseUrl}/im.open?token=${token}`
     }
 });
 
